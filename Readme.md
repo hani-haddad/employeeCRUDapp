@@ -8,8 +8,11 @@ create database on ssms and change the connection string on appSettings.json
 start 
 /backend
 $ dotnet ef migrations add newMigration
+/
 $ dotnet ef database update
+/
 $ dotnet bulid
+/
 $ dotnet run
 
 /frontend/myApp
