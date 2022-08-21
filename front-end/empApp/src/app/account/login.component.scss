@@ -1,0 +1,24 @@
+.login-row {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .card {
+    position: relative;
+
+    .btn-primary {
+      background-color: #6a6d70;
+      border-color: #00162c;
+    }
+
+    .btn-link {
+      color: #00162c;
+    }
+
+    .error-alert {
+      color: white;
+      background-color: red;
+      text-align: center;
+    }
+  }
+}
